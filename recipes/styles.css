@@ -9,7 +9,13 @@ h1{
     margin: 40px;
 
 }
-ul{
+body{
+    display: grid;
+    justify-content: center;
+}
+/* Homepage styling */
+
+ul.homepage-navbar{
     display: flex;
     justify-content: space-around;
     background-color: #ddd;
@@ -18,12 +24,22 @@ ul li{
     list-style: none;
 }
 ul li a{
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 20px;
 }
 a:active{
     color: pink;
 }
 a:visited{
+    color: blue;
+}
+a:hover{
     color: #000;
+}
+/* Salmon styling */
+img{
+   margin: auto; 
+}
+h2,h3,p{
+    margin: 30px 0 20px 0 ;
 }
